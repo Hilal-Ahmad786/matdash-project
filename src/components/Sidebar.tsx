@@ -68,7 +68,7 @@ import {
     onClick,
     active = false,
   }: {
-    icon: JSX.Element;
+    icon: React.ReactNode;
     label: string;
     onClick?: () => void;
     active?: boolean;

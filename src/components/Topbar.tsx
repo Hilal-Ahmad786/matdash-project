@@ -39,7 +39,7 @@ export default function Topbar() {
   );
 }
 
-function IconButton({ icon }: { icon: JSX.Element }) {
+function IconButton({ icon }: { icon: React.ReactNode }) {
   return (
     <div className="bg-[#F1F5FF] p-2 rounded-full hover:bg-[#E1EDFF] transition cursor-pointer">
       <div className="text-[#007AFF] text-lg">{icon}</div>

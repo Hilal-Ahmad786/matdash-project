@@ -91,7 +91,7 @@ import {
     label,
     items,
   }: {
-    icon: JSX.Element;
+    icon: React.ReactNode;
     label: string;
     items: string[];
   }) => {

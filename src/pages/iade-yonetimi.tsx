@@ -21,7 +21,7 @@ export default function IadeYonetimi() {
       {/* Başlık */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-2 text-gray-800">
-          <span className="text-2xl font-bold">📦 İade Yönetimi</span>
+          <span className="text-2xl font-bold">İade Yönetimi</span>
           <HiOutlineInformationCircle className="text-blue-500 w-5 h-5 cursor-pointer" />
         </div>
       </div>
